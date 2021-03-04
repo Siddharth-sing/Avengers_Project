@@ -1,5 +1,5 @@
 # Avengers_Project
-This Is a basic app. 
+This is a basic app. 
 I have used shared preferences in this to store login credentials and I also implemented the logout button. 
 Since it is a multiscreen app so I also used 'Intent()' class in this project. 
 'setOnClickListener' is obviously used because I have implemented login and logout buttons. 
