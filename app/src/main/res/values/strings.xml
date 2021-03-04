@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="new_app_name">Avengers Directory</string>
+    <string name="hint_number">Enter Your Number</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="shared_preferences_file_name">Avengers Preferences</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imgAvengers"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/avengers_logo"
+        android:layout_marginTop="35dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgAvengers"
+        android:layout_marginTop="25dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:hint="@string/hint_number"
+         />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="25dp"
+        android:inputType="textPassword"
+        android:padding="6dp"
+        android:maxLines="1"
+        android:hint="@string/hint_password" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumberPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="?attr/colorError"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/txtBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="Register Yourself"
+        android:textColor="#5CC30606"/>
+    <TextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonLogin"
+        android:layout_marginTop="35dp"
+        android:text="@string/forgot_password"
+        android:textColor="#8F8080"/>
+
+</RelativeLayout>

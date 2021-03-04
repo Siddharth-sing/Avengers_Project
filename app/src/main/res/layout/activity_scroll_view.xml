@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgTonyStark"
+            android:layout_width="128dp"
+            android:layout_height="167dp"
+
+            android:layout_marginStart="3dp"
+
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="5dp"
+            android:src="@drawable/tony_stark" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imgTonyStark"
+            android:text="Tony Stark"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgTonyStark"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:textColor="#3F51B5"
+            android:text="+91 9119148863"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imgTonyStark"
+            android:text="tonyStark2020@jarvis.com"
+            android:textColor="#3F51B5"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnTony"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_toRightOf="@id/imgTonyStark"
+
+            android:text="More Info" />
+
+    </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <ImageView
+                 android:id="@+id/imgCaptain"
+                 android:layout_width="128dp"
+                 android:layout_height="167dp"
+
+                 android:layout_marginStart="3dp"
+
+                 android:layout_marginTop="3dp"
+                 android:layout_marginEnd="3dp"
+                 android:layout_marginBottom="3dp"
+                 android:padding="5dp"
+                 android:src="@drawable/steve_rogers" />
+
+             <TextView
+                 android:id="@+id/txtNameCaptain"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/imgCaptain"
+                 android:text="Steve Rogers"
+                 android:textSize="20sp"
+                 android:layout_marginTop="20dp"
+                 android:textStyle="bold"
+                 android:textColor="#FF5722"
+                 />
+
+             <TextView
+                 android:id="@+id/txtContactCaptain"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imgCaptain"
+                 android:layout_marginLeft="8dp"
+                 android:layout_below="@+id/txtNameCaptain"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#3F51B5"
+                 android:text="+91-6758374823"
+                 android:textStyle="bold"
+                 android:textSize="15sp"/>
+
+             <TextView
+                 android:id="@+id/txtMailCaptain"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtContactCaptain"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_toRightOf="@+id/imgCaptain"
+                 android:text="captainrogers@shield.com"
+                 android:textColor="#3F51B5"
+                 android:textSize="15sp"
+                 android:textStyle="bold|italic" />
+             <Button
+                 android:id="@+id/btnRogers"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtMailCaptain"
+                 android:layout_toRightOf="@id/imgCaptain"
+
+                 android:text="More Info" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <ImageView
+                 android:id="@+id/imgNatasha"
+                 android:layout_width="128dp"
+                 android:layout_height="167dp"
+
+                 android:layout_marginStart="3dp"
+
+                 android:layout_marginTop="3dp"
+                 android:layout_marginEnd="3dp"
+                 android:layout_marginBottom="3dp"
+                 android:padding="5dp"
+                 android:src="@drawable/black_widow" />
+
+             <TextView
+                 android:id="@+id/txtNameNatasha"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/imgNatasha"
+                 android:text="Natasha Romanoff"
+                 android:textSize="20sp"
+                 android:layout_marginTop="20dp"
+                 android:textStyle="bold"
+                 android:textColor="#FF5722"
+                 />
+
+             <TextView
+                 android:id="@+id/txtContactNatasha"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imgNatasha"
+                 android:layout_marginLeft="8dp"
+                 android:layout_below="@+id/txtNameNatasha"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#3F51B5"
+                 android:text="+91-9384726286"
+                 android:textStyle="bold"
+                 android:textSize="15sp"/>
+
+             <TextView
+                 android:id="@+id/txtMailNatasha"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtContactNatasha"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_toRightOf="@+id/imgNatasha"
+                 android:text="romanoffwsidow@shield.com"
+                 android:textColor="#3F51B5"
+                 android:textSize="15sp"
+                 android:textStyle="bold|italic" />
+             <Button
+                 android:id="@+id/btnNatasha"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtMailNatasha"
+                 android:layout_toRightOf="@id/imgNatasha"
+
+                 android:text="More Info" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <ImageView
+                 android:id="@+id/imgBruce"
+                 android:layout_width="128dp"
+                 android:layout_height="167dp"
+
+                 android:layout_marginStart="3dp"
+
+                 android:layout_marginTop="3dp"
+                 android:layout_marginEnd="3dp"
+                 android:layout_marginBottom="3dp"
+                 android:padding="5dp"
+                 android:src="@drawable/bruce_banner" />
+
+             <TextView
+                 android:id="@+id/txtNameBruce"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/imgBruce"
+                 android:text="Bruce Banner"
+                 android:textSize="20sp"
+                 android:layout_marginTop="20dp"
+                 android:textStyle="bold"
+                 android:textColor="#FF5722"
+                 />
+
+             <TextView
+                 android:id="@+id/txtContactBruce"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imgBruce"
+                 android:layout_marginLeft="8dp"
+                 android:layout_below="@+id/txtNameBruce"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#3F51B5"
+                 android:text="+91-9384726286"
+                 android:textStyle="bold"
+                 android:textSize="15sp"/>
+
+             <TextView
+                 android:id="@+id/txtMailBruce"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtContactBruce"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_toRightOf="@+id/imgBruce"
+                 android:text="brucebannergamma@shield.com"
+                 android:textColor="#3F51B5"
+                 android:textSize="15sp"
+                 android:textStyle="bold|italic" />
+             <Button
+                 android:id="@+id/btnBruce"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtMailBruce"
+                 android:layout_toRightOf="@id/imgBruce"
+
+                 android:text="More Info" />
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <ImageView
+                 android:id="@+id/imgBP"
+                 android:layout_width="128dp"
+                 android:layout_height="167dp"
+
+                 android:layout_marginStart="3dp"
+
+                 android:layout_marginTop="3dp"
+                 android:layout_marginEnd="3dp"
+                 android:layout_marginBottom="3dp"
+                 android:padding="5dp"
+                 android:src="@drawable/boseman_panther" />
+
+             <TextView
+                 android:id="@+id/txtNameBP"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/imgBP"
+                 android:text="Black Panther"
+                 android:textSize="20sp"
+                 android:layout_marginTop="20dp"
+                 android:textStyle="bold"
+                 android:textColor="#FF5722"
+                 />
+
+             <TextView
+                 android:id="@+id/txtContactBP"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imgBP"
+                 android:layout_marginLeft="8dp"
+                 android:layout_below="@+id/txtNameBP"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#3F51B5"
+                 android:text="+91-6453728935"
+                 android:textStyle="bold"
+                 android:textSize="15sp"/>
+
+             <TextView
+                 android:id="@+id/txtMailBP"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtContactBP"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_toRightOf="@+id/imgBP"
+                 android:text="pantherforever@shield.com"
+                 android:textColor="#3F51B5"
+                 android:textSize="15sp"
+                 android:textStyle="bold|italic" />
+             <Button
+                 android:id="@+id/btnBP"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtMailBP"
+                 android:layout_toRightOf="@id/imgBP"
+
+                 android:text="More Info" />
+
+         </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgThor"
+            android:layout_width="128dp"
+            android:layout_height="167dp"
+
+            android:layout_marginStart="3dp"
+
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="5dp"
+            android:src="@drawable/thor" />
+
+        <TextView
+            android:id="@+id/txtNameThor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imgThor"
+            android:text="Thor"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            />
+
+        <TextView
+            android:id="@+id/txtContactThor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgThor"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/txtNameThor"
+            android:layout_marginTop="15dp"
+            android:textColor="#3F51B5"
+            android:text="+91-8453728935"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtMailThor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContactThor"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imgThor"
+            android:text="thorassguard@shield.com"
+            android:textColor="#3F51B5"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/btnThor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMailThor"
+            android:layout_toRightOf="@id/imgThor"
+
+            android:text="More Info" />
+
+    </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <ImageView
+                 android:id="@+id/imgFalcon"
+                 android:layout_width="128dp"
+                 android:layout_height="167dp"
+
+                 android:layout_marginStart="3dp"
+
+                 android:layout_marginTop="3dp"
+                 android:layout_marginEnd="3dp"
+                 android:layout_marginBottom="3dp"
+                 android:padding="5dp"
+                 android:src="@drawable/falcon" />
+
+             <TextView
+                 android:id="@+id/txtNameFalcon"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_toRightOf="@+id/imgFalcon"
+                 android:text="Falcon"
+                 android:textSize="20sp"
+                 android:layout_marginTop="20dp"
+                 android:textStyle="bold"
+                 android:textColor="#FF5722"
+                 />
+
+             <TextView
+                 android:id="@+id/txtContactFalcon"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imgFalcon"
+                 android:layout_marginLeft="8dp"
+                 android:layout_below="@+id/txtNameFalcon"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#3F51B5"
+                 android:text="+91-7765745372"
+                 android:textStyle="bold"
+                 android:textSize="15sp"/>
+
+             <TextView
+                 android:id="@+id/txtMailFalcon"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtContactFalcon"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_toRightOf="@+id/imgFalcon"
+                 android:text="falconbird@shield.com"
+                 android:textColor="#3F51B5"
+                 android:textSize="15sp"
+                 android:textStyle="bold|italic" />
+             <Button
+                 android:id="@+id/btnFalcon"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/txtMailFalcon"
+                 android:layout_toRightOf="@id/imgFalcon"
+
+                 android:text="More Info" />
+
+         </RelativeLayout>
+
+         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".LogOutActivity">
+
+             <Button
+                 android:id="@+id/btnLogout"
+                 android:layout_width="390dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginBottom="15dp"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="25dp"
+                 android:backgroundTint="?attr/colorError"
+                 android:textSize="15dp"
+                 android:textStyle="bold"
+                 android:text="Log Out" />
+
+         </RelativeLayout>
+
+
+     </LinearLayout>
+</ScrollView>
